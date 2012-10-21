@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AngRailsTest</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <script src="/angular-1.0.2/angular.js" ></script>
+  <%= csrf_meta_tags %>
+  <style>[ng-cloak] {display: none}</style>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
